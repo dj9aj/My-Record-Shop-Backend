@@ -1,0 +1,35 @@
+{
+  "extends": "airbnb/base",
+  "globals": {
+    "describe"   : false,
+    "it"         : false,
+    "before"     : false,
+    "beforeEach" : false,
+    "after"      : false,
+    "afterEach"  : false,
+    "exec": false,
+    "exit": false,
+    "expect": false,
+    "test": false,
+    "jest": false
+  },
+  "rules": {
+    "prefer-const": "off",
+    "no-restricted-syntax": "off",
+    "arrow-body-style": "off",
+    "new-cap": "off",
+    "prefer-promise-reject-errors": "off",
+    "function-paren-newline": "off",
+    "object-curly-newline": "off",
+    "operator-linebreak": "off",
+    "no-else-return": ["error", { "allowElseIf": true }],
+    "max-len": "off",
+    "padded-blocks": "off",
+    "consistent-return": "warn",
+    "no-unneeded-ternary": "off",
+    "no-await-in-loop": "off",
+    "prefer-destructuring": "off",
+    "arrow-parens": "off",
+    "no-continue": "warn",
+  }
+}
