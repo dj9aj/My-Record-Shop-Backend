@@ -1,6 +1,6 @@
 require('dotenv').config({ path: process.env.ENV_FILE || '.env' });
 const server = require('./createServer');
-const db = require('./db');
+const db = require('../db/db');
 
 const cors = { credentials: true, origin: process.env.FRONTEND_URL };
 
