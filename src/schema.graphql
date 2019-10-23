@@ -6,4 +6,5 @@ type Mutation {
 
 type Query {
   user(where: UserWhereUniqueInput!): User
+  users: [User]!
 }
